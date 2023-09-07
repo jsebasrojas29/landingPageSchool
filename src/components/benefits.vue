@@ -16,7 +16,12 @@
   <div class="bg-gray-100">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-        <h2 class="text-2xl font-bold text-gray-900">Collections</h2>
+        <div class="mx-auto lg:mx-0 text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Beneficios
+        </h2>
+    
+      </div>
 
         <div
           class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
@@ -35,13 +40,13 @@
                 class="h-full w-full object-cover object-center"
               />
             </div>
-            <h3 class="mt-6 text-sm text-gray-500">
+            <h3 class="mt-6 text-base font-semibold text-gray-900 text-center ">
               <a :href="callout.href">
-                <span class="absolute inset-0" />
+                <span class="absolute inset-0 " />
                 {{ callout.name }}
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">
+            <p class=" text-sm text-gray-500 text-center">
               {{ callout.description }}
             </p>
           </div>
@@ -54,8 +59,8 @@
 <script setup>
 const callouts = [
   {
-    name: "Desk and Office",
-    description: "Work from home accessories",
+    name: "Preparación Integral",
+    description: "Nuestros programas ofrecen una preparación académica completa junto con el desarrollo de habilidades personales para que estés completamente preparado para la universidad y la vida.",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
     imageAlt:
@@ -63,8 +68,8 @@ const callouts = [
     href: "#",
   },
   {
-    name: "Self-Improvement",
-    description: "Journals and note-taking",
+    name: "Éxito Comprobado",
+    description: "Nuestros estudiantes han logrado tasas de aceptación excepcionales en universidades de prestigio, lo que demuestra la efectividad de nuestra preparación.",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
     imageAlt:
@@ -72,8 +77,8 @@ const callouts = [
     href: "#",
   },
   {
-    name: "Travel",
-    description: "Daily commute essentials",
+    name: "Apoyo Personalizado",
+    description: "Ofrecemos asesoramiento y apoyo individualizado para ayudarte a superar obstáculos y alcanzar tus metas académicas y profesionales.",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",

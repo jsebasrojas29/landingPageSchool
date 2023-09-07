@@ -36,7 +36,7 @@
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-            >Log in <span aria-hidden="true">&rarr;</span></a
+            >Plaforma web <span aria-hidden="true">&rarr;</span></a
           >
         </div>
       </nav>
@@ -193,10 +193,9 @@ import { ref } from "vue";
 // import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Inicio", href: "#" },
+  { name: "Programas", href: "#" },
+  { name: "Sobre nosotros", href: "#" },
 ];
 
 const mobileMenuOpen = ref(false);
