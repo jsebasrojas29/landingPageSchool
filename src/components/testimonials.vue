@@ -1,12 +1,12 @@
 <template>
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
+      <div class="mx-auto lg:mx-0 text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          From the blog
+          Comentarios de nuestros estudiantes
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          Learn how to grow your business with our expert advice.
+          Escucha a nuestros estudiantes y descubre cómo [Nombre de tu Institución] ha cambiado sus vidas
         </p>
       </div>
       <div
@@ -66,16 +66,50 @@
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "Excelente experencia",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "La experiencia en [Nombre de tu Institución] ha sido transformadora. Gracias a su apoyo académico y personalizado, logré ingresar a mi universidad soñada. ",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { title: "Marketing", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "Juan Pérez",
+      role: "Estudiante de la Universidad de Caldas",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Grandes profesores",
+    href: "#",
+    description:
+      "Los profesores en [Nombre de tu Institución] realmente se preocupan por tu éxito. Su orientación me ayudó a mejorar mis habilidades de estudio y a superar mis exámenes de ingreso con confianza.",
+    date: "Nov 30, 2022",
+    datetime: "2020-03-16",
+    category: { title: "Sistemas", href: "#" },
+    author: {
+      name: "María Rodríguez",
+      role: "Estudiante de la Universidad de la Amazonia",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 3,
+    title: "Estudiando poco a poco",
+    href: "#",
+    description:
+      "Encontrar [NombreInstitución] fue un punto de inflexión en mi educación. Los simulacros de exámenes y las sesiones de orientación me brindaron la preparación que necesitaba.",
+    date: "Mar 01 , 2023",
+    datetime: "2020-03-16",
+    category: { title: "Matematicas", href: "#" },
+    author: {
+      name: "Luis Gómezz",
+      role: "Estudiante de la Universidad de la Amazonia",
       href: "#",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
