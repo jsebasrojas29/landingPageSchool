@@ -1,5 +1,16 @@
-import { createApp } from "vue";
-import "./style.css";
-import App from "./App.vue";
+import './assets/main.css'
 
-createApp(App).mount("#app");
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import WOW from 'wow.js/dist/wow.min.js'
+
+import App from './App.vue'
+import router from './router'
+
+const app = createApp(App)
+
+app.use(createPinia())
+app.use(router)
+new WOW().init();
+
+app.mount('#app')
